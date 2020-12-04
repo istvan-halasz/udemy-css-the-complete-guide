@@ -37,19 +37,22 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
+    font-size: 22px;
 }
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 55px);
+    width: calc(100% - 74px);
+    vertical-align: middle;
 }
 
-.main-nav__item {
+.main-nav__items {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -57,4 +60,12 @@ body {
 
 .main-nav__item {
     display: inline-block;
+    margin: 0 16px;
+    color: #0e4f1f;
+    text-decoration: none;
+}
+
+.main-nav__item  a {    
+    color: #0e4f1f;
+    text-decoration: none;
 }
