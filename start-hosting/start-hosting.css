@@ -24,7 +24,6 @@ main {
     width: 100%;
 }
 
-
 /* .signup-form input[type="checkbox"] */
 .signup-form input[id*="terms"],
 .signup-form input[id*="terms"] + label {
@@ -64,10 +63,9 @@ main {
 
 .signup-form input.invalid,
 .signup-form select.invalid,
-.signup-form :invalid
- {
+.signup-form :invalid {
     border-color: red !important;
-    background:#faacac;
+    background: #faacac;
 }
 
 .signup-form button[type="submit"] {

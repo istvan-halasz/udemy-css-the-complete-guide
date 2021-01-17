@@ -65,7 +65,7 @@ main {
 .main-header__brand {
   color: #0e4f1f;
   text-decoration: none;
-  font-weight: bold;  
+  font-weight: bold;
   /* width: 20px; */
 }
 
@@ -178,7 +178,7 @@ main {
   margin: 0 auto;
   padding: 0;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -212,12 +212,12 @@ main {
   outline: none;
 }
 
-.button[disabled]{
+.button[disabled] {
   cursor: not-allowed;
-  border: #a1a1a1;  
+  border: #a1a1a1;
   background: #ccc;
   color: #a1a1a1;
-}
+} 
 
 .open {
     display: block !important;
@@ -228,9 +228,8 @@ main {
     margin: 0 1rem;
   }
 
-  .main-footer__links {    
+  .main-footer__links {
     flex-direction: row;
     justify-content: center;
   }
-  
 }
